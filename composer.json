@@ -5,9 +5,9 @@
     "type": "symfony-bundle",
     "license": "LGPL-2.1",
     "require": {
-        "php": ">=7.2.0",
+        "php": "~8.0",
         "ext-json": "*",
-        "oat-sa/lib-lti1p3-core": "^6.0",
+        "oat-sa/lib-lti1p3-core": "dev-php8",
         "psr/log": "^1 || ^2 || ^3",
         "symfony/framework-bundle": "^4.4 || ^5.1",
         "symfony/psr-http-message-bridge": "^2.0",
@@ -35,5 +35,11 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yaizy-io/lib-lti1p3-core"
+        }
+    ]
 }
