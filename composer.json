@@ -7,6 +7,7 @@
     "require": {
         "php": "~8.0",
         "ext-json": "*",
+        "lcobucci/jwt": "dev-php8 as 4.3.0",
         "oat-sa/lib-lti1p3-core": "dev-php8",
         "psr/log": "^1 || ^2 || ^3",
         "symfony/framework-bundle": "^4.4 || ^5.1 || ^5.4",
@@ -40,6 +41,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/yaizy-io/lib-lti1p3-core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/yaizy-io/jwt"
         }
     ]
 }
